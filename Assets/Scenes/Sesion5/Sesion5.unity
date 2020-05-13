@@ -249,7 +249,7 @@ GameObject:
   - component: {fileID: 44533805}
   - component: {fileID: 44533804}
   m_Layer: 0
-  m_Name: Plane
+  m_Name: WaterPlane
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -287,7 +287,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 445e912e341277649a95fc43ade898c1, type: 2}
+  - {fileID: 2100000, guid: 15421952243c0df4b8a2272761668cbc, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
