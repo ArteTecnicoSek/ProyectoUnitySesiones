@@ -22,12 +22,13 @@ Material:
     m_TexEnvs: []
     m_Floats:
     - Vector1_4C99C1CA: 1
-    - Vector1_5CC404A6: 0
+    - Vector1_5CC404A6: -0.53
     - Vector1_6BB7B0CE: 0.53
     - Vector1_92A2A5E6: 1
     - Vector1_D244867D: 1
     - Vector1_F5E31B69: 0.2
-    m_Colors: []
+    m_Colors:
+    - Color_B91764EA: {r: 0.2216793, g: 1, b: 0, a: 0}
 --- !u!114 &100683956815885519
 MonoBehaviour:
   m_ObjectHideFlags: 11
