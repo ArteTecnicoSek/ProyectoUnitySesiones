@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: M_VertexShaderSnow
+  m_Name: Shader Graphs_VertexShaderSnowTree
   m_Shader: {fileID: -6465566751694194690, guid: ade08fc2dba9c9a4d9439282d48e53cf,
     type: 3}
   m_ShaderKeywords: 
@@ -21,8 +21,8 @@ Material:
     serializedVersion: 3
     m_TexEnvs: []
     m_Floats:
-    - Vector1_6F558D24: 1
-    - Vector1_CF96C2F8: -0.03
+    - Vector1_6F558D24: 0.523
+    - Vector1_CF96C2F8: 0.68
     m_Colors:
     - Color_61DC7BB2: {r: 1, g: 1, b: 1, a: 0}
     - Color_CC87129B: {r: 1, g: 0.5641353, b: 0, a: 0}

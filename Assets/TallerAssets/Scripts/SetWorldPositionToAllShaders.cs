@@ -12,6 +12,10 @@ public class SetWorldPositionToAllShaders : MonoBehaviour
     [Header("Si no colocas nada se asume que es el dueno del script")]
     public Transform triggerTransform;
 
+    public delegate void FPositionChange(Vector3 objPos);
+
+    public static event FPositionChange OnPositionchange;
+
     private void OnEnable()
     {
         if (triggerTransform == null)
@@ -26,6 +30,8 @@ public class SetWorldPositionToAllShaders : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
-        Shader.SetGlobalVector(shaderVectorName, triggerTransform.position);
+        Shader.SetGlobalVector(shaderVectorName, transform.position);
+
+        OnPositionchange?.Invoke(transform.position);
     }
 }

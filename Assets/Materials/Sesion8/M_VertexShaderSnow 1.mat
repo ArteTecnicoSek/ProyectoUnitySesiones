@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: M_FlowerBounceBee
-  m_Shader: {fileID: -6465566751694194690, guid: 6af82e21e8e487f42a0c7bad28cd488c,
+  m_Name: M_VertexShaderSnow 1
+  m_Shader: {fileID: -6465566751694194690, guid: 1e32439f9f6e0b5449facbb1b87d4d24,
     type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
@@ -21,8 +21,9 @@ Material:
     serializedVersion: 3
     m_TexEnvs: []
     m_Floats:
-    - ShakeForce: 0
-    - Vector1_B1AE1249: 0
-    - growAlpha: 0
+    - Vector1_6F558D24: 0
+    - Vector1_CF96C2F8: -0.04
     m_Colors:
-    - VertexShake: {r: 1, g: 0, b: 0, a: 0}
+    - Color_61DC7BB2: {r: 1, g: 1, b: 1, a: 0}
+    - Color_CC87129B: {r: 1, g: 0.5641353, b: 0, a: 0}
+    - Vector3_CE31E505: {r: 0, g: 1, b: 0, a: 0}
